@@ -1,0 +1,8 @@
+{
+  "name": "ruota",
+  "version": "0.0.1",
+  "description": "一个 React UI 轱辘",
+  "repository": "https://github.com/strugglebak/ruota.git",
+  "author": "strugglebak <strugglebak@gmail.com>",
+  "license": "MIT"
+}
