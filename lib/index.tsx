@@ -1,6 +1,13 @@
+import React from 'react';
+import ReactDom from 'react-dom';
+
 import Button from './button';
+import Icon from './icon';
 
-const a = 1;
-console.log('hi');
-
-export { Button, a };
+ReactDom.render(
+  <div>
+    <Button></Button>
+    <Icon name="wechat"></Icon>
+  </div>,
+  document.querySelector('#root')
+);

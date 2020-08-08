@@ -1,7 +1,6 @@
 import React from 'react';
 function Button() {
-  return <div>button2</div>;
+  return <div>button</div>;
 }
 
-console.log('test debug');
 export default Button;

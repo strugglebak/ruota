@@ -7,3 +7,5 @@ interface IconProps {
 const Icon: React.FunctionComponent<IconProps> = props => {
   return <span>{props.name}</span>;
 };
+
+export default Icon;
