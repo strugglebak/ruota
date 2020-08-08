@@ -5,7 +5,5 @@ interface IconProps {
 }
 
 const Icon: React.FunctionComponent<IconProps> = props => {
-  return (
-    <span>{props.name}</span>
-  )
+  return <span>{props.name}</span>
 }

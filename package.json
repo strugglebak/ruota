@@ -17,7 +17,11 @@
     }
   },
   "lint-staged": {
-    "{lib,test}/**/\\*.{tsx,ts,js}": [
+    "{lib,test}/**/*.{tsx,ts,js}": [
+      "prettier --write",
+      "eslint"
+    ],
+    "{lib,test}/*.{tsx,ts,js}": [
       "prettier --write",
       "eslint"
     ]
