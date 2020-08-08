@@ -17,10 +17,9 @@
     }
   },
   "lint-staged": {
-    "{src,test,lib}/**/*.{ts,tsx}": [
+    "{lib,test}/**/\\*.{tsx,ts,js}": [
       "prettier --write",
-      "eslint",
-      "git add"
+      "eslint"
     ]
   },
   "repository": "https://github.com/strugglebak/ruota.git",
