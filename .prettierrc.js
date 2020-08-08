@@ -1,6 +1,6 @@
 module.exports = {
   printWidth: 120,
-  semi: false,
+  semi: true,
   singleQuote: true,
   trailingComma: 'none',
   bracketSpacing: false,
@@ -8,5 +8,5 @@ module.exports = {
   arrowParens: 'avoid',
   insertPragma: false,
   tabWidth: 2,
-  useTabs: false,
+  useTabs: false
 }

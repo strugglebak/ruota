@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 
 interface IconProps {
-  name: string
+  name: string;
 }
 
 const Icon: React.FunctionComponent<IconProps> = props => {
-  return <span>{props.name}</span>
-}
+  return <span>{props.name}</span>;
+};
